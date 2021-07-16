@@ -1,0 +1,25 @@
+.mainText {
+  padding: 0 1.75rem 1rem;
+  font-family: Gotham A, Gotham B, DIN, sans-serif;
+  font-weight: 700;
+  color: #464ea3;
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+}
+.bars {
+  display: flex;
+  height: 0.4rem;
+  padding: 0 1.75rem;
+}
+.bar {
+  flex: 1;
+  margin: 0 6px;
+  height: 0.4rem;
+  background-color: #464ea3;
+}
+
+@media screen and (max-width: 768px) {
+  .bars {
+    padding: 0;
+  }
+}

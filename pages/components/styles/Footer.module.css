@@ -35,6 +35,20 @@
   margin: 0 1.25rem 0 1.6rem;
   width: 1px;
 }
+.p {
+  display: inline-block;
+  margin: 0.3rem 0;
+  color: #868e96;
+  font-size: 0.8rem;
+}
+.p::after {
+  display: inline-block;
+  margin: -0.1rem 0.5rem;
+  width: 1px;
+  height: 0.8rem;
+  background-color: #dee2e6;
+  content: '';
+}
 @media screen and (max-width: 768px) {
   .context {
     margin: 2vw 8vw;
