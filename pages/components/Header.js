@@ -10,7 +10,6 @@ const Header = () => {
   if (typeof window !== 'undefined') {
     ws = window.screen.width;
   }
-  console.log(ws < 750);
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
