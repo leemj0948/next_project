@@ -1,0 +1,64 @@
+.frame {
+  position: absolute;
+  top: 0vw;
+  left: 0;
+  background-color: white;
+  height: 60vw;
+}
+
+.contents {
+  display: flex;
+  position: absolute;
+}
+.modalstyle {
+  display: flex;
+  flex-direction: row;
+}
+.close {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  right: 3vw;
+  margin: 2vw;
+  width: 2vw;
+  background-color: white;
+  text-align: center;
+  z-index: 99;
+  cursor: pointer;
+}
+.img {
+  width: 60%;
+}
+.figure {
+  margin: 0;
+  width: 50vw;
+}
+.img {
+  padding-left: 2vw;
+  width: 100%;
+}
+.body {
+  font-family: Gotham A, Gotham B, DIN, sans-serif;
+  font-weight: 500;
+  color: #343a40;
+  font-size: 1rem;
+  line-height: 166%;
+  padding: 3rem 0;
+
+  overflow: scroll;
+  width: 83%;
+  white-space: break-spaces;
+}
+.footer {
+  font-family: Gotham A, Gotham B, DIN, sans-serif;
+  font-weight: 500;
+  color: #343a40;
+  font-size: 1rem;
+  line-height: 166%;
+  padding: 3rem 1.2rem;
+  width: 100%;
+}
+.header {
+  font-size: x-large;
+  font-weight: 900;
+}

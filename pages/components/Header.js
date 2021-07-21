@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import styles from './styles/Header.module.css';
 import Image from 'next/image';
@@ -17,17 +17,9 @@ const Header = () => {
   return (
     <section className={styles.form}>
       <h1 className={styles.title}>AWESOME FOOD STORE</h1>
-      {/* <div className={styles.moblieMenu}>{{ ws } < 750 && <MenuBar />}</div> */}
       <div className={styles.moblieMenu}>
         <button className={styles.moblieMenuBtn} onClick={handleShow}>
           <MENUBAR />
-          {/* <Image
-            className="menu"
-            src="/list.svg"
-            alt="menu"
-            width={125}
-            height={48}
-          /> */}
         </button>
         {show && <MobileCanvas show={show} handleClose={handleClose} />}
       </div>
