@@ -1,0 +1,61 @@
+.contents {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-color: white;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2vw;
+  width: 100%;
+}
+.body .titleHead {
+  margin: 2vw 0;
+  font-size: larger;
+  font-weight: 900;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 3vw;
+  margin: 2vw;
+  width: 10vw;
+  background-color: white;
+  text-align: center;
+}
+.figureImg {
+  margin: 0;
+  padding: 0;
+}
+.img {
+  margin: 0;
+  padding: 0;
+  width: 97vw;
+}
+.body {
+  font-family: Gotham A, Gotham B, DIN, sans-serif;
+  font-weight: 500;
+  color: #343a40;
+  font-size: 1rem;
+  line-height: 166%;
+  padding: 3rem 1.2rem;
+  height: 80vw;
+
+  overflow: scroll;
+  width: 100%;
+  white-space: break-spaces;
+}
+.footer {
+  font-family: Gotham A, Gotham B, DIN, sans-serif;
+  font-weight: 500;
+  color: #343a40;
+  font-size: 1rem;
+  line-height: 166%;
+  padding: 3rem 1.2rem;
+  width: 100%;
+}

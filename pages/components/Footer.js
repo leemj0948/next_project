@@ -23,9 +23,9 @@ const Header = () => {
       <div className={styles.title}>AWESOME FOOD STORE</div>
       <div className={styles.context}>
         <p className={styles.p}>코오롱인더스트리(주)FnC부문 커먼그라운드</p>
-        <p>대표이사: 유석진</p>
-        <p>법인등록번호: 321-85-00020</p>
-        <p>서울특별시 강남구 삼성로 518 (삼성동)</p>
+        <p className={styles.p}>대표이사: 유석진</p>
+        <p className={styles.p}> 법인등록번호: 321-85-00020</p>
+        <p className={styles.p}>서울특별시 강남구 삼성로 518 (삼성동)</p>
       </div>
       <div className={styles.copy}>@ 2020 이명진</div>
     </footer>
